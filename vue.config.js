@@ -1,7 +1,5 @@
 
 
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-? 'https://blog-tec.herokuapp.com/'
-: '/'
+    publicPath: 'https://testsite2.herokuapp.com/'
 }
