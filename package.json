@@ -6,8 +6,7 @@
     "node": "12.16.x"
   },
   "scripts": {
-    "build": "vue-cli-service build",
-    "start": "npm run server"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "axios": "^0.19.2",
