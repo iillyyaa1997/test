@@ -5,5 +5,4 @@ app = express()
 app.use('/', express.static(__dirname + '/dist'))
 var port = process.env.PORT || 80
 app.listen(port)
-console.log(app)
 console.log('server started ' + port)
